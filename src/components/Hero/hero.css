@@ -1,0 +1,163 @@
+.ist{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #f3f6f8; */
+    background-color: #000;
+    padding: 20px 0;
+  
+   
+}
+#front-h1{
+    padding-top: 50px ;
+    /* text-transform:capitalize; */
+    font-size: 120px;
+  font-weight: 900;
+text-align: center;
+  /* background-color: blueviolet; */
+  /* color: #f1dede; */
+  /* color: #fff; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+#front-h1-span{
+    color: blue;
+    margin-right: 30px;
+    
+   
+}
+#para-div{
+    /* width: 90%; */
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px 50px;
+    /* background-color: burlywood; */
+    line-height: 29px;
+}
+
+
+
+#para1{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    line-height: 4vw;
+  
+  
+}
+#button-styleing{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+    margin: auto;
+    /* background-color: #fff; */
+}
+
+.hero-btn{
+    width: 230px;
+    height:57px ;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 5px;
+    font-size: 25px;
+    position: relative;
+
+}
+.hero-btn::after{
+    content: ">";
+    position: absolute;
+    /* margin-left: 5px; */
+    padding: 0px 15px;
+}
+.hero-btn:hover{
+    background-color: rgb(47, 20, 201)
+}
+
+
+#text-input{
+width: 300px;
+height: 60px;
+padding: 16px 16px 16px 16px;
+background-color: transparent;
+margin-top: 60px;
+
+outline: none;
+box-shadow: none;
+border: 0.666px solid #b8b9b9;
+
+}
+.con{
+    width: 20px;
+    height: 20px;
+  font-weight: 700;
+    color: #fff;
+}
+#para-with-icon{
+    color: #fff;
+    /* background-color: blue; */
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#section-of-icon{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+@media (max-width:600px) {
+    #front-h1{
+        font-size: 40px;
+    }
+    #front-h1-span{
+        margin-right: 15px;
+    }
+    #para-div{
+        margin-top: 25px;
+    }
+    #para1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hero-btn{
+        width: 170px;
+        font-size: 20px;
+        /* padding-left: 5px; */
+    }
+    .hero-btn::after{
+        content: ">";
+        position: absolute;
+        /* margin-left: 5px; */
+        padding: 0px 5px;
+    }
+    
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    #front-h1{
+        font-size:10vw ;
+    }
+    #para1{
+        font-size: 4vw;
+    }
+    #para-div{
+        margin-top: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #front-h1{
+        font-size:10vw ;
+    }
+    #para1{
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    #para-div{
+        margin-top: 25px;
+    }
+}

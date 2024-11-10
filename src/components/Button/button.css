@@ -1,0 +1,28 @@
+
+
+
+.nbt{
+    border-width: 1px;
+    border-color: #374151 ;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: #e50914;
+    color: #ffffff;
+}
+
+.btn{
+    padding: 8px 90px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scaleX(1.5);
+}

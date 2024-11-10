@@ -1,0 +1,87 @@
+nav{
+    height:96px ;
+    border-width:1px;
+    border-bottom: solid ;
+ border-color: #fff;
+   /* background-color:  #f1dede; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 40px;
+   /* background-color:  #0a0a09; */
+   /* background-color: rgba(52, 152, 219,1.0); */
+   background-color: rgb(34, 47, 50);
+}
+
+nav #link #rizvi-name{
+    font-size: 30px;
+    /* line-height: 36px;  */
+  /* margin-left: 8px; */
+    /* color: #4f1f24; */
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px ;
+    line-height: 1;
+    text-decoration: none;
+    /* background-color: red; */
+}
+#rizvi{
+/* color: #FF5733; */
+color: blue;
+
+}
+#links{
+    font-size: 20px; 
+     line-height: 28px;
+     /* background-color: #e50914; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 50px;
+     /* color: #e50914; */
+}
+#links .anchor {
+  /* padding-left: 20px; */
+  /* background-color: #e0636f; */
+  font-size: 23px;
+  text-decoration: none;
+  /* color: #e50914; */
+  color: #fff;
+
+  font-weight: 800;
+
+}
+
+#links .anchor:hover {
+ color: cornflowerblue;
+}
+#links .anchor:first-child{
+    padding-left: 0px;
+   
+}
+/* #links .anchor:nth-of-type(2){
+background-color: yellow;
+} */
+
+/* #links .anchor:nth-of-type(3){
+     background-color: red; 
+    } */
+.lucide-menu{
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width:1023px) {
+  nav{
+    min-width: 100%;
+  }
+  .lucide-menu{
+    display: block;
+  }
+  nav #link #rizvi-name{
+    font-size: 25px;
+  }
+  #links{
+    display: none;
+  }
+}
