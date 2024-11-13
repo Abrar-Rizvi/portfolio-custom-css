@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <nav>
             <div id="link">
-                <Link id="rizvi-name" href="/"
+                <Link id="rizvi-name" href="#"
                    >
 
                     M.Abrar Rizvi <span id="rizvi" >.</span>
